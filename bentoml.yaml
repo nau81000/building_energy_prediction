@@ -1,0 +1,16 @@
+service: 'service.py:Prediction'
+name: projet6-ml-service
+labels:
+  owner: nau
+  project: projet6-ml-service
+include:
+  - '*.py'
+python:
+  packages:
+    - scikit-learn
+    - pandas
+    - pydantic
+    - bentoml
+models:
+  - rf_pipeline_model:latest
+
