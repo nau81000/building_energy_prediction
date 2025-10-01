@@ -7,6 +7,15 @@ Ce projet cherche à prédire la consommation des bâtiments en utilisant du mac
 - python3
 - bentoml
 
+## Structure principale du projet
+
+```
+├── bentoml.yaml             # Fichier de configuration de Bentoml
+├── notebook.ipynb           # Notebook python contenant l'analyse exploratoire
+├── results.pdf              # Résultats d'analyse
+├── service.py               # Script lançant le service de prédiction
+```
+
 ## Installation
 
 1. **Cloner le dépôt**
